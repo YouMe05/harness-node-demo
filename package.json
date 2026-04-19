@@ -1,0 +1,25 @@
+{
+  "name": "harness-freeplan-node-demo",
+  "version": "1.0.0",
+  "description": "Harness Free Plan CI demo for EGCO344",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "harness",
+    "devops",
+    "ci",
+    "demo"
+  ],
+  "author": "EGCO344",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}

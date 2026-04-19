@@ -8,6 +8,6 @@ describe("Health Check API", () => {
     expect(response.statusCode).toBe(200);
 
     // Intentionally wrong for demo
-    expect(response.body.status).toBe("healthy");
+    expect(response.body.status).toBe("OK");
   });
 });
